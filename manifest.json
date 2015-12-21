@@ -1,0 +1,18 @@
+{
+   "background": {
+      "scripts": [ "main.js" ]
+   },
+   "description": "Opens your google search in a new tab
+                  using Bing, then closes the tab once it
+                  it done loading to get Bing Rewards search
+                  credit.",
+   "manifest_version": 2,
+   "name": "Bing Rewards with Google",
+   "permissions": [ "webRequest",
+       "webRequestBlocking",
+       "http://*.google.com/*",
+       "https://*.google.com/*",
+        "*://www.google.com/",
+        "tabs"],
+   "version": "0.9"
+}
